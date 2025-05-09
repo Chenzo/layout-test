@@ -20,6 +20,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <div className="container">
+          <div className="header">This should only show on the first page</div>
+        </div>
         {children}
       </body>
     </html>
