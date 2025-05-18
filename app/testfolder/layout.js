@@ -1,4 +1,4 @@
-
+import "./globals.css";
 
 export const metadata = {
   title: "2nd page",
@@ -6,11 +6,8 @@ export const metadata = {
 };
 
 export default function SecondaryLayout({ children }) {
+
   return (
-    <html lang="en">
-      <body>
-        {children}
-      </body>
-    </html>
+    children
   );
 }

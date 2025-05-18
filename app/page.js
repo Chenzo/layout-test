@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <div>
       <main className={styles.main}>
-          FIRST page
-
-          perhaps a link:
+          <h1>First Page</h1>
 
           <Link href="/testfolder">
             <div className={styles.card}>
